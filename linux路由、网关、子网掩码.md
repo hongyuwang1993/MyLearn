@@ -3,7 +3,13 @@
 ## linux路由
 
 执行命令/sbin/route查看路由表
-![](media/14955184953256/14955186641869.jpg)
+
+```
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+30.0.0.0        xxx.xxx.xxx.xxx  255.0.0.0       UG    0      0        0 eth0
+default         xxx.xxx.xxx.xxx  0.0.0.0         UG    0      0        0 eth1
+```
 
 ```
 1. Gateway表示网关，Genmask表示子网掩码
